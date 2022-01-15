@@ -1,0 +1,28 @@
+body {
+    background-color: aqua;
+    display: flex;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 5px solid black;
+    height: 20em;
+    width: 15em;
+    background-color: azure;
+    margin: 5px;
+}
+
+.cardtitle {
+    font-weight: bold;
+}
+
+.formdiv {
+    flex-grow: 0;
+    background-color: cadetblue;
+    padding: 1em;
+    height: 100vh;
+}

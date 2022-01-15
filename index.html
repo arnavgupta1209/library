@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Library</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+    </head>
+    <body>
+
+
+        <div class="formdiv">
+            <form name="inputForm" onsubmit="return addFromForm()">
+                <label for="btitle">Book Title:</label><br>
+                <input type="text" id="btitle" name="btitle"><br>
+
+                <label for="bauthor">Book Author:</label><br>
+                <input type="text" id="bauthor" name="bauthor"><br>
+
+                <label for="bpages">Number of pages:</label><br>
+                <input type="text" id="bpages" name="bpages"><br>
+
+                <label for="bread">If read</label>
+                <input type="checkbox" id="bread" name="bread"><br><br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+
+        <div class="content">
+        </div>
+    </body>
+</html>
