@@ -87,6 +87,16 @@ function updateDisplay() {
             updateDisplay();
         });
 
+        //making event listener for readbutton
+        readbutton.addEventListener("click", () => {
+            if (library[i].read === true) {
+                library[i].read = false;
+            } else {
+                library[i].read = true;
+            }
+            updateDisplay();
+        });
+
     }
 }
 
